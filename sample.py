@@ -1,3 +1,4 @@
-a = 10
-b = 11
-print(a+b)
+from Add import Add
+
+c = Add.add(10,11)
+print(c)
